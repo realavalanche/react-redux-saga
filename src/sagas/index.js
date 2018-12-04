@@ -18,7 +18,7 @@ function* fetchNews() {
 }
 
 function* actionWatcher() {
-  yield takeLatest('GET_NEWS', fetchNews)
+  yield takeLatest('GET_NEWS', fetchNews);
 }
 
 
